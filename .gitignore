@@ -1,0 +1,20 @@
+# Logs - these are generated at runtime, not source code.
+# We keep the folder itself (via .gitkeep) but ignore actual log content.
+logs/*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Common editor/IDE folders
+.vscode/
+.idea/
+
+# NOTE ON config/config.php:
+# In a real production project, this file would normally be excluded
+# from Git entirely (since it holds the encryption key), and a
+# config.example.php with placeholder values would be committed instead.
+# For this ACADEMIC project, we intentionally keep config/config.php
+# in the repository so your lecturer can clone and run the project
+# immediately without extra setup steps. This tradeoff is documented
+# in the project's security recommendations.

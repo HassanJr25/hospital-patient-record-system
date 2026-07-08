@@ -1,0 +1,20 @@
+/* style.css
+   Small custom tweaks on top of Bootstrap. Kept minimal on purpose -
+   Bootstrap handles most of the visual design for this project. */
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.login-card {
+    max-width: 400px;
+    margin: 80px auto;
+}
+
+/* Print-friendly rules: when the user clicks "Print" on a report page,
+   hide the navbar and action buttons so only the report table shows. */
+@media print {
+    .no-print {
+        display: none !important;
+    }
+}
